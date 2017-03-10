@@ -1,2 +1,2 @@
 # currentevent
-Supporting materials for the Splatspace (Durham Makerspace) beginner electronics "Current Event"
+Supporting materials for the Splatspace (Durham Makerspace) electronics educational "Current Event"
