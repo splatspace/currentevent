@@ -4751,8 +4751,8 @@ Used as a test point connection for pogo pins or other debugging tools.
 <part name="T1" library="transistor" deviceset="2N3904" device=""/>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
 <part name="R3" library="rcl" deviceset="R-US_" device="0309/12" value="10k &quot;brn blk org&quot;"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="0309/12" value="1k &quot;brn blk red&quot;"/>
-<part name="R1" library="SparkFun-Retired" deviceset="TRIMPOT" device="3362U-2" value="100k &quot;104&quot;"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="0309/12" value="100k &quot;brn blk ylw&quot;"/>
+<part name="R1" library="SparkFun-Retired" deviceset="TRIMPOT" device="3362U-2" value="1k &quot;102&quot;"/>
 <part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-AAA_KIT"/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="2" value="TEST-POINT1"/>
 <part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="2" value="TEST-POINT2"/>
