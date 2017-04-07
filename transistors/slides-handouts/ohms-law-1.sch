@@ -3558,14 +3558,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="G1" library="battery" deviceset="AB9V" device=""/>
 <part name="R4" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
 <part name="G2" library="battery" deviceset="AB9V" device=""/>
-<part name="R5" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
-<part name="R11" library="resistor" deviceset="R-US_" device="M0805" value="1k"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="M0805" value="2000 ohms &quot;red black red&quot;"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="M0805" value="3000 ohms &quot;orange black red&quot;"/>
 <part name="G3" library="battery" deviceset="AB9V" device=""/>
-<part name="R12" library="resistor" deviceset="R-US_" device="M0805" value="1k"/>
+<part name="R12" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="M0805" value="1500 ohms &quot;brown green red&quot;"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="M0805" value="10 ohms &quot;brown black black&quot;"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="M0805" value="20 ohms &quot;red black black&quot;"/>
 <part name="R8" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
 <part name="R10" library="resistor" deviceset="R-US_" device="M0805" value="1000 ohms &quot;brown black red&quot;"/>
@@ -3573,48 +3573,52 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-12.7" y="55.88" size="1.778" layer="94">10 VOLTS HERE</text>
-<text x="-10.16" y="7.62" size="1.778" layer="94">QUESTION 4</text>
-<text x="53.34" y="55.88" size="1.778" layer="94">10 VOLTS HERE</text>
-<text x="71.12" y="35.56" size="1.778" layer="94">&lt;-- HOW MANY VOLTS HERE?</text>
-<text x="53.34" y="10.16" size="1.778" layer="94">QUESTION 5</text>
-<text x="121.92" y="55.88" size="1.778" layer="94">10 VOLTS HERE</text>
-<text x="7.62" y="12.7" size="1.778" layer="94" rot="R90">&lt;-- HOW MANY AMPS THRU HERE? *</text>
-<text x="124.46" y="10.16" size="1.778" layer="94">QUESTION 6</text>
-<text x="180.34" y="5.08" size="1.778" layer="94" rot="R180">* CONVENTIONAL CURRENT FLOW USED THROUGHOUT</text>
+<text x="-12.7" y="66.04" size="1.778" layer="94">15 VOLTS HERE</text>
+<text x="-10.16" y="17.78" size="1.778" layer="94">QUESTION 4</text>
+<text x="53.34" y="66.04" size="1.778" layer="94">10 VOLTS HERE</text>
+<text x="71.12" y="45.72" size="1.778" layer="94">&lt;-- HOW MANY VOLTS HERE?</text>
+<text x="53.34" y="20.32" size="1.778" layer="94">QUESTION 5</text>
+<text x="121.92" y="66.04" size="1.778" layer="94">10 VOLTS HERE</text>
+<text x="7.62" y="22.86" size="1.778" layer="94" rot="R90">&lt;-- HOW MANY AMPS THRU HERE? *</text>
+<text x="124.46" y="20.32" size="1.778" layer="94">QUESTION 6</text>
+<text x="33.02" y="10.16" size="1.778" layer="94">Copyright (c) 2017 Durham Makerspace - Licensed under Creative Commons CC0 1.0 Universal</text>
 <text x="-15.24" y="88.9" size="1.778" layer="94">QUESTION 1</text>
 <text x="-15.24" y="109.22" size="1.778" layer="94">How many ohms of resistance from top to bottom?</text>
 <text x="53.34" y="88.9" size="1.778" layer="94">QUESTION 2</text>
 <text x="53.34" y="109.22" size="1.778" layer="94">How many ohms of resistance from left to right?</text>
 <text x="121.92" y="88.9" size="1.778" layer="94">QUESTION 3</text>
 <text x="121.92" y="96.52" size="1.778" layer="94">How many ohms of resistance from left to right?</text>
-<text x="-15.24" y="12.7" size="1.778" layer="94">10 VOLTS HERE</text>
-<text x="139.7" y="15.24" size="1.524" layer="94" rot="R90">&lt;-- HOW MANY AMPS THRU HERE? *</text>
-<text x="154.94" y="15.24" size="1.524" layer="94" rot="R90">&lt;-- HOW MANY AMPS THRU HERE? *</text>
+<text x="-15.24" y="22.86" size="1.778" layer="94">0 VOLTS HERE</text>
+<text x="139.7" y="40.64" size="1.524" layer="94">&lt;-- AMPS
+     THROUGH
+     HERE?</text>
+<text x="162.56" y="40.64" size="1.524" layer="94">&lt;-- AMPS
+     THROUGH
+     HERE?</text>
 </plain>
 <instances>
-<instance part="R3" gate="G$1" x="2.54" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.0414" y="31.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-4.318" y="19.05" size="1.778" layer="96" rot="R90"/>
+<instance part="R3" gate="G$1" x="2.54" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.0414" y="41.91" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-4.318" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="G1" gate="G$1" x="-15.24" y="35.56" rot="R90"/>
-<instance part="R4" gate="G$1" x="68.58" y="43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.0814" y="39.37" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="74.93" y="42.418" size="1.778" layer="96"/>
+<instance part="G1" gate="G$1" x="-15.24" y="45.72" rot="R90"/>
+<instance part="R4" gate="G$1" x="68.58" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="67.0814" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.93" y="52.578" size="1.778" layer="96"/>
 </instance>
-<instance part="G2" gate="G$1" x="50.8" y="35.56" rot="R90"/>
-<instance part="R5" gate="G$1" x="68.58" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.0814" y="24.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="74.93" y="27.178" size="1.778" layer="96"/>
+<instance part="G2" gate="G$1" x="50.8" y="45.72" rot="R90"/>
+<instance part="R5" gate="G$1" x="68.58" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="67.0814" y="34.29" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.93" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="149.86" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="148.59" y="41.6814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="148.59" y="31.242" size="1.778" layer="96" rot="R180"/>
+<instance part="R11" gate="G$1" x="160.02" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="158.5214" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="155.702" y="26.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="G3" gate="G$1" x="121.92" y="35.56" rot="R90"/>
-<instance part="R12" gate="G$1" x="134.62" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="133.35" y="41.6814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="133.35" y="28.702" size="1.778" layer="96" rot="R180"/>
+<instance part="G3" gate="G$1" x="121.92" y="45.72" rot="R90"/>
+<instance part="R12" gate="G$1" x="137.16" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="135.6614" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="132.842" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R1" gate="G$1" x="-12.7" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="-14.1986" y="130.81" size="1.778" layer="95" rot="R90"/>
@@ -3651,102 +3655,102 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="G1" gate="G$1" pin="-"/>
-<wire x1="-15.24" y1="22.86" x2="-15.24" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="33.02" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="15.24" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="25.4" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="G1" gate="G$1" pin="+"/>
-<wire x1="-15.24" y1="48.26" x2="-15.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="58.42" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="53.34" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="53.34" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="63.5" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="63.5" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="G2" gate="G$1" pin="-"/>
-<wire x1="50.8" y1="22.86" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="33.02" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="22.86" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="33.02" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="G2" gate="G$1" pin="+"/>
-<wire x1="50.8" y1="48.26" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="58.42" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="53.34" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="63.5" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="38.1" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="48.26" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="G3" gate="G$1" pin="-"/>
-<wire x1="121.92" y1="22.86" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="15.24" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="33.02" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="15.24" x2="149.86" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="30.48" x2="149.86" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="25.4" x2="160.02" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="40.64" x2="160.02" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="30.48" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
-<junction x="134.62" y="15.24"/>
+<wire x1="137.16" y1="40.64" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
+<junction x="137.16" y="25.4"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="G3" gate="G$1" pin="+"/>
-<wire x1="121.92" y1="48.26" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="58.42" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="53.34" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="63.5" x2="160.02" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="63.5" x2="160.02" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="40.64" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
-<junction x="134.62" y="53.34"/>
+<wire x1="137.16" y1="50.8" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
+<junction x="137.16" y="63.5"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<wire x1="-22.86" y1="71.12" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="2.54" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="71.12" x2="-22.86" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="81.28" x2="-22.86" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="12.7" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="81.28" x2="-22.86" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="45.72" y1="2.54" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="12.7" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="2.54" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="12.7" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="2.54" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="12.7" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="2.54" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="12.7" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="2.54" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="12.7" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="2.54" x2="114.3" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="12.7" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -3857,4 +3861,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
